@@ -32,8 +32,6 @@ var wf_plugin = {
 							data = data.split("\n");
 							dataArray = wf_plugin.parseAutocompleteData(data);
 
-							dataArray = wf_plugin.buildDestinationLabel(dataArray);
-
 							response(wf_jquery.map(dataArray, function(item) {
 								return {
 									label: item[3],
@@ -88,16 +86,6 @@ var wf_plugin = {
 		}
 
 		return dataArray;
-	},
-	
-	buildDestinationLabel: function(destinations) {
-		for(var i=0; i<destinations.length; i++) {
-			if(destinations[i][2] == "COUNTRY") { destinations[i][3] = '<span class="country">COUNTRY</span>'+destinations[i][0]; }
-			else if(destinations[i][2] == "DESTINATION") { destinations[i][3] = '<span class="city">CITY</span>'+destinations[i][0]; }
-			else if(destinations[i][2] == "CONTINENT") { destinations[i][3] = '<span class="continent">CONTINENT</span>'+destinations[i][0]; }
-			else if(destinations[i][2] == "REGION") { destinations[i][3] = '<span class="region">REGION</span>'+destinations[i][0]; }
-		}
-		return destinations;
 	},
 	
 	addDestination: function(destination) {

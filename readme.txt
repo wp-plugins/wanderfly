@@ -5,7 +5,7 @@ Requires at least: 3.0
 Tested up to: 3.0.4
 Stable tag: 1.2
 
-This plugin simplify the addition of Wanderfly's widgets to your Wordpress website. It provides an auto-complete used to search for a destination to display into the post edition pages.
+The Wanderfly destination plugin allows your audience to search a travel destination based on their interests. Simple to install. Totally inspirational.
 
 == Installation ==
 

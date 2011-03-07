@@ -4,7 +4,7 @@
 		Plugin URI: http://partners.wanderfly.com
 		Description: Plugin for displaying trips results from Wanderfly's engine
 		Author: Keven Bouchard, Wanderfly Programmer
-		Version: 1.2
+		Version: 1.3
 		Author URI: http://www.wanderfly.com
 	*/
 	
